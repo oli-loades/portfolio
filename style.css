@@ -40,6 +40,13 @@ p{
     text-align: center;
 }
 
+h2{
+    font-family: Geneva, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
 .projects {
     columns: 2;
     font-family: Geneva, sans-serif;
@@ -47,5 +54,18 @@ p{
     padding: 20px;
     text-align: center;
     list-style-type: none;
+}
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.container{
+    columns: 2;
+    font-family: Geneva, sans-serif;
+    padding: 6px 24px;
+    display: inline;
 }
