@@ -47,25 +47,37 @@ h2{
     text-align: center;
 }
 
-.projects {
-    columns: 2;
-    font-family: Geneva, sans-serif;
-    font-size: 22px;
-    padding: 20px;
+button{
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    list-style-type: none;
+    text-decoration: none;
+    font-family: Geneva, sans-serif;
+    font-size: 16px;
 }
 
-.card {
+button:hover{
+    background-color: black;
+}
+
+
+.col {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+    height: 200px;
     border-radius: 5px;
+    flex: 50%;
+    margin: 20px;
+    font-family: Geneva, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
 }
 
-.container{
-    columns: 2;
-    font-family: Geneva, sans-serif;
+.row{
     padding: 6px 24px;
-    display: inline;
+    display: flex;
+    box-sizing: border-box;
 }
+
