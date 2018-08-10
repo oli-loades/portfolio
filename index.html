@@ -2,49 +2,86 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Portfolio</title>
     <div class="navbar">
         <ul>
-            <li><a href=#home>Home</a></li>
-            <li><a href=#about>About</a></li>
-            <li><a href=#projects>Projects</a></li>
+            <li><a class="navbarlink" href=#home>Home</a></li>
+            <li><a class="navbarlink" href=#about>About</a></li>
+            <li><a class="navbarlink" href=#projects>Projects</a></li>
         </ul>
     </div>
 </head>
-<body class = "back">
+<body class="back">
 
-<section id ="home">
+<section id="home">
     <div class="banner">
         <h1>Oliver Loades</h1><br>
         <h2>QA Consulting, IT Consultant</h2><br>
         <div>
-            <img class="logos" src="img/GitHub-Logo.png">
-            <img class="logos" src="img/Linkedin-Logo.png">
+            <a href="https://github.com/oli-loades"> <img class="logos" src="img/GitHub-Logo.png"> </a>
+            <a href=""> <img class="logos" src="img/Linkedin-Logo.png"></a>
         </div>
     </div>
 </section>
-<section id = "about">
+<section id="about">
     <div class="container">
         <h1>About.</h1>
         <div class="row">
-            <div class="col">
+            <div class="colouter">
                 <div class="about">
                     <h2>Summary:</h2>
                     <p>
-                        My name is Oli. I am a trainee at QA Consulting and this is my Portfolio.
+                        I am an open minded and determined person who prides themselves on quickly adapting and striving
+                        to do my best. Within the workplace I am a social, friendly and positive employee who is always
+                        willing to help.
+                    </p><br>
+                    <p>
+                        I also enjoy finding the more obscure solutions to a problem where multiple parties with
+                        different experience are involved as my knowledge and understanding grows.
                     </p>
                 </div>
             </div>
-            <div class="col">
+            <div class="colmid">
                 <div class="about">
-                    <h2>Skills:</h2>
-                    <p>
-                        list of skills
-                    </p>
+                    <h2>Technologies:</h2>
+                    <div class="row">
+                        <div class="panel">
+                            <img src="img/spring-boot-logo.png">
+                            <h3>Backend Development</h3>
+                        </div>
+                        <div class="panel">
+                            <img src="img/Angular-logo.png">
+                            <h3>Frontend Development</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="panel">
+                            <img src="img/database.png">
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="panel">
+                            <img src="img/git-logo.png">
+                            <h3>Version Control</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="colouter">
+                <div class="about">
+                    <h2>Aspirations:</h2>
+                    <ul>
+                        <li> Learn new skills.</li>
+                        <li> Learn new Technologies.</li>
+                        <li> Gain more Certifications.</li>
+                        <li>Meet new people.</li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <section id="projects">
@@ -53,32 +90,40 @@
         <div class=" row">
             <div class="col">
                 <div class="card">
-                    <h2>Project name</h2>
-                    <p> Project description</p>
-                    <button> Go</button>
+                    <h2>QA Final Project</h2>
+                    <p> A game to encourage kids to learn programming.</p>
+                    <a href="https://github.com/oli-loades/fullstack">
+                        <button>Go</button>
+                    </a>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <h2>Project name</h2>
-                    <p> Project description</p>
-                    <button> Go</button>
+                    <h2>Garage</h2>
+                    <p> Simple car management webapp</p>
+                    <a href="">
+                        <button>Go</button>
+                    </a>
                 </div>
             </div>
         </div>
         <div class=" row">
             <div class="col">
                 <div class="card">
-                    <h2>Project name</h2>
-                    <p> Project description</p>
-                    <button> Go</button>
+                    <h2>B-tree</h2>
+                    <p> B-tree Java implementation</p>
+                    <a href="">
+                        <button>Go</button>
+                    </a>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <h2>Project name</h2>
-                    <p> Project description</p>
-                    <button> Go</button>
+                    <h2>Jacobi</h2>
+                    <p> Optimized Jacobi algorithm using OpenMPI</p>
+                    <a href="https://github.com/oli-loades/Jacobi-openmpi">
+                        <button>Go</button>
+                    </a>
                 </div>
             </div>
         </div>
